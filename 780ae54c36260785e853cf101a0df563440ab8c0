@@ -1,0 +1,1 @@
+{"jobID":"36cfa357-6426-7b35-7b7f-72dbdc0319cb","spec":{"type":"policy","cause":{"Message":"","User":"Pia Gerhofer \u003cgerhofer.pia@gmail.com\u003e"},"spec":{"dev:deployment/podinfo":{"add":null,"remove":{"automated":"true"}}}},"result":null}
