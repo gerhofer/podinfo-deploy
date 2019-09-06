@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: metrics
+  name: whiskey-shop
   namespace: dev
   annotations:
     kubernetes.io/ingress.class: traefik
@@ -16,7 +16,7 @@ spec:
   - host: training-user-33.training.weave.works
     http:
       paths:
-      - path: /metrics
+      - path: /whiskey-shop
         backend:
-          serviceName: metrics
+          serviceName: whiskey-shop
           servicePort: 3000
