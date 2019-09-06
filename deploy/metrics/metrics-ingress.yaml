@@ -16,7 +16,7 @@ spec:
   - host: training-user-33.training.weave.works
     http:
       paths:
-      - path: /whiskey-shop
+      - path: /metrics-demo
         backend:
           serviceName: whiskey-shop
           servicePort: 3000
